@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    implementation 'org.testng:testng:7.4.0'
+    implementation 'ch.qos.logback:logback-classic:1.2.10'
+    implementation 'com.opencsv:opencsv:5.6'
+
+}
+
+test {
+    useTestNG()
+}
