@@ -67,5 +67,37 @@ public class RegisterAndLoginPage extends PageBase {
         accountLink.click();
         return new AccountPage(driver);
     }
+
+    @FindBy (xpath = "//form[@id='login_form']/div[2]")
+    WebElement loginIncorrectWarning;
+
+    public boolean isWarningAppeared() {
+        String text = loginIncorrectWarning.getText();
+        System.out.println(text);
+        return loginIncorrectWarning.getText().contains("Please enter a correct username and password.");
+    }
+
+    @FindBy (id = "login_form")
+    WebElement loginForm;
+
+    public boolean isLoginFormDisplayed() {
+        return loginForm.isDisplayed();
+    }
+
+    @FindBy (xpath = "//form[@id='register_form']/div[2]//span")
+    WebElement registrationUserExistError;
+
+    public boolean isUserAlreadyExistsErrorPresent() {
+        return registrationUserExistError.getText().contains("A user with that email address already exists");
+    }
+
+    @FindBy (xpath = "//form[@id='register_form']/div[4]//span")
+    WebElement confirmPasswordError;
+
+    public boolean isIncorrectPasswordCorfirmErrorPresent() {
+        String error = confirmPasswordError.getText();
+        System.out.println(error);
+        return confirmPasswordError.getText().contains("The two password fields didn't match");
+    }
 }
 

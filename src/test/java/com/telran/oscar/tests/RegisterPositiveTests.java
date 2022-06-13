@@ -35,9 +35,7 @@ public class RegisterPositiveTests extends TestBase {
         registerAndLoginPage.fillRegisterForm(email, password, password);
         lastCreatedUsersPassword=password;
         Assert.assertTrue(registerAndLoginPage.isUserRegistered());
-        //registerAndLoginPage.clickAccountLink();
-        //accountPage.deleteProfile(password);
-        //Assert.assertTrue(homePage.isUserDeleted());
+
     }
 
     @AfterMethod

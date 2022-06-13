@@ -25,6 +25,41 @@ public class DataProviders {
             returnValue.add(nextRecord);
         }
         return returnValue.iterator();
+    }
 
+    @DataProvider
+    public Iterator<Object[]> loginInvalidPasswordData() throws IOException {
+        CSVReader fileReader = new CSVReader(new FileReader("src/test/resources/login_invalid_password_data.csv"));
+        Iterator<String[]> fileReaderInterator = fileReader.iterator();
+        List<Object[]> returnValue = new ArrayList<>();
+        while (fileReaderInterator.hasNext()) {
+            String[] nextRecord = fileReaderInterator.next();
+            returnValue.add(nextRecord);
+        }
+        return returnValue.iterator();
+    }
+
+    @DataProvider
+    public Iterator<Object[]> registrationWithInvalidEmail() throws IOException {
+        CSVReader fileReader = new CSVReader(new FileReader("src/test/resources/registration_invalid_email_data.csv"));
+        Iterator<String[]> fileReaderInterator = fileReader.iterator();
+        List<Object[]> returnValue = new ArrayList<>();
+        while (fileReaderInterator.hasNext()) {
+            String[] nextRecord = fileReaderInterator.next();
+            returnValue.add(nextRecord);
+        }
+        return returnValue.iterator();
+    }
+
+    @DataProvider
+    public Iterator<Object[]> registrationWithInvalidPassword() throws IOException {
+        CSVReader fileReader = new CSVReader(new FileReader("src/test/resources/registration_invalid_password_data.csv"));
+        Iterator<String[]> fileReaderInterator = fileReader.iterator();
+        List<Object[]> returnValue = new ArrayList<>();
+        while (fileReaderInterator.hasNext()) {
+            String[] nextRecord = fileReaderInterator.next();
+            returnValue.add(nextRecord);
+        }
+        return returnValue.iterator();
     }
 }

@@ -15,7 +15,13 @@ public class LoginTests extends TestBase {
     RegisterAndLoginPage registerAndLoginPage;
 
     private String usersEmail = PropertiesLoader.loadProperty("valid.email");
-    private String usersPassword = PropertiesLoader.loadProperty("Master12!")
+    private String usersPassword = PropertiesLoader.loadProperty("valid.password");
+
+    private String notRegisteredEmail = PropertiesLoader.loadProperty("notRegistered.email");
+    private String getNotRegisteredPassword = PropertiesLoader.loadProperty("notRegistered.password");
+
+    private String deletedEmail = PropertiesLoader.loadProperty("toBeDeleted.email");
+    private String deletedPassword = PropertiesLoader.loadProperty("toBeDeleted.password");
 
 
     @BeforeMethod
@@ -25,17 +31,47 @@ public class LoginTests extends TestBase {
     }
 
     @BeforeMethod
-    public void ensurePreconditions() {
+    public void preconditions() {
         homePage.clickOnLoginAndRegisterLink();
     }
 
-    // .alertinner
 
     @Test
     public void loginRegisteredUserPositiveTest() {
         registerAndLoginPage.fillLoginForm(usersEmail, usersPassword);
-        Assert.assertTrue();
+        Assert.assertTrue(homePage.isUserLoggedIn());
     }
 
+    @Test (dataProviderClass = DataProviders.class, dataProvider = "loginInvalidPasswordData")
+
+    public void loginWithInvalidPasswordNegativeTest(String password) {
+        registerAndLoginPage.fillLoginForm(usersEmail, password);
+        Assert.assertTrue(registerAndLoginPage.isWarningAppeared());
+    }
+
+    @Test
+    public void loginNotRegisteredUserNegativeTest() {
+        registerAndLoginPage.fillLoginForm(notRegisteredEmail, getNotRegisteredPassword);
+        Assert.assertTrue(registerAndLoginPage.isWarningAppeared());
+    }
+
+    @Test
+    public void logInDeletedUserNegativeTest() {
+        registerAndLoginPage.fillLoginForm(deletedEmail, deletedPassword);
+        Assert.assertTrue(registerAndLoginPage.isWarningAppeared());
+    }
+
+
+    @Test
+    public void loginEmptyPasswordNegativeTest() {
+        registerAndLoginPage.fillLoginForm(usersEmail, "");
+        Assert.assertTrue(registerAndLoginPage.isLoginFormDisplayed());
+    }
+
+    @Test
+    public void loginEmptyFieldsNegativeTest() {
+        registerAndLoginPage.fillLoginForm("", "");
+        Assert.assertTrue(registerAndLoginPage.isLoginFormDisplayed());
+    }
 
 }

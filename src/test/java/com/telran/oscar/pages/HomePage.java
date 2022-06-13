@@ -27,10 +27,13 @@ public class HomePage extends PageBase{
     }
 
     @FindBy (css = ".alertinner")
-    WebElement deleteProfileMessage;
+    WebElement alertMessage;
 
     public boolean isUserDeleted() {
-        return deleteProfileMessage.getText().contains("Your profile has now been deleted.");
+        return alertMessage.getText().contains("Your profile has now been deleted.");
     }
 
+    public boolean isUserLoggedIn() {
+        return alertMessage.getText().contains("Welcome back");
+    }
 }
