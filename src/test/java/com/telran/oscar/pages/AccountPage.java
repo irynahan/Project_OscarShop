@@ -10,7 +10,7 @@ public class AccountPage extends PageBase{
     }
 
     @FindBy (css = "#delete_profile")
-    WebElement deleteAccountBtn;
+    WebElement deleteProfileBtn;
 
     @FindBy (css = "#id_password")
     WebElement passwordConfirm;
@@ -19,9 +19,90 @@ public class AccountPage extends PageBase{
     WebElement deleteSubmitBnt;
 
     public void deleteProfile(String password){
-        deleteAccountBtn.click();
+        deleteProfileBtn.click();
         type(passwordConfirm, password);
         deleteSubmitBnt.click();
+    }
+
+    @FindBy (xpath = "//a[@href = '/en-gb/accounts/profile/edit/']")
+    WebElement editProfileBtn;
+
+    public AccountPage clickOnEditButton() {
+        editProfileBtn.click();
+        return this;
+    }
+
+    @FindBy (name = "first_name")
+    WebElement firstNameField;
+
+    @FindBy (name = "last_name")
+    WebElement lastNameField;
+
+
+    @FindBy (css = ".btn-primary")
+    WebElement saveEditsBtn;
+
+    public AccountPage setNewFirstAndLastName(String firstName, String lastName) {
+        type(firstNameField, firstName);
+        type(lastNameField, lastName);
+        click(saveEditsBtn);
+        return this;
+    }
+
+    @FindBy (name = "email")
+    WebElement emailField;
+
+    public AccountPage setNewEmail(String email) {
+        type(emailField, email);
+        click(saveEditsBtn);
+        return this;
+    }
+
+    @FindBy (xpath = "//table//tr[2]/td")
+    WebElement clientsEmail;
+    public String actualEmail() {
+        return clientsEmail.getText();
+    }
+
+    @FindBy (xpath = "//table//tr[1]/td")
+    WebElement clientsName;
+
+    public String actualFirstAndLastName() {
+        return clientsName.getText();
+    }
+
+    @FindBy (xpath = "//a[@href = '/en-gb/accounts/change-password/']")
+    WebElement changePasswordBtn;
+
+    public AccountPage clickOnChangePasswordBtn() {
+        click(changePasswordBtn);
+        return this;
+    }
+
+    @FindBy (name = "old_password")
+    WebElement oldPasswordField;
+
+    @FindBy (name = "new_password1")
+    WebElement newPasswordField;
+
+    @FindBy (name = "new_password2")
+    WebElement passwordConfirmField;
+
+
+    public AccountPage setNewPassword(String oldPassword, String newPassword) {
+        type(oldPasswordField, oldPassword);
+        type(newPasswordField, newPassword);
+        type(passwordConfirmField, newPassword);
+        click(saveEditsBtn);
+        return this;
+    }
+
+    @FindBy (id = "logout_link")
+    WebElement logoutLink;
+
+    public HomePage logout() {
+        click(logoutLink);
+        return new HomePage(driver);
     }
 
 

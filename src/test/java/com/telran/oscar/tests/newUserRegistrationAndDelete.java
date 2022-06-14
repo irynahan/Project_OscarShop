@@ -3,20 +3,21 @@ package com.telran.oscar.tests;
 import com.telran.oscar.pages.AccountPage;
 import com.telran.oscar.pages.HomePage;
 import com.telran.oscar.pages.RegisterAndLoginPage;
-import com.telran.oscar.utils.DataProviders;
+import com.telran.oscar.utils.PropertiesLoader;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class RegisterPositiveTests extends TestBase {
-
-    private String lastCreatedUsersPassword=null;
+public class newUserRegistrationAndDelete extends TestBase {
 
     HomePage homePage;
     RegisterAndLoginPage registerAndLoginPage;
     AccountPage accountPage;
+
+    private String email = PropertiesLoader.loadProperty("toBeDeleted.email");
+    private String password = PropertiesLoader.loadProperty("toBeDeleted.password");
+
 
     @BeforeMethod
     public void pageInit() {
@@ -28,19 +29,15 @@ public class RegisterPositiveTests extends TestBase {
     @BeforeMethod
     public void preconditions() {
         homePage.clickOnLoginAndRegisterLink();
+
     }
 
-    @Test (dataProviderClass = DataProviders.class, dataProvider = "newUserRegistrationValidData")
-    public void newUserRegistrationPositiveTest(String email, String password) {
+    @Test
+    public void registerAndDeleteUserPositiveTest() {
         registerAndLoginPage.fillRegisterForm(email, password, password);
-        lastCreatedUsersPassword=password;
-        Assert.assertTrue(registerAndLoginPage.isUserRegistered());
-
-    }
-
-    @AfterMethod
-    public void deleteCreatedUser() {
         registerAndLoginPage.clickAccountLink();
-        accountPage.deleteProfile(lastCreatedUsersPassword);
+        accountPage.deleteProfile(password);
+        Assert.assertTrue(homePage.isUserDeleted());
     }
+
 }

@@ -36,4 +36,8 @@ public class HomePage extends PageBase{
     public boolean isUserLoggedIn() {
         return alertMessage.getText().contains("Welcome back");
     }
+
+    public boolean isUserLoggedOut() {
+        return loginLink.isDisplayed();
+    }
 }
