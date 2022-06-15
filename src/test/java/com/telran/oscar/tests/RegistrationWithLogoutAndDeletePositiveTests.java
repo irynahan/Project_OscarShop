@@ -6,18 +6,19 @@ import com.telran.oscar.pages.RegisterAndLoginPage;
 import com.telran.oscar.utils.PropertiesLoader;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class newUserRegistrationAndLogout extends TestBase {
+import java.util.Random;
+
+public class RegistrationWithLogoutAndDeletePositiveTests extends TestBase {
 
     HomePage homePage;
     RegisterAndLoginPage registerAndLoginPage;
     AccountPage accountPage;
 
-    private String email = PropertiesLoader.loadProperty("toBeDeleted.email");
-    private String password = PropertiesLoader.loadProperty("toBeDeleted.password");
+    private String email = "client" + new Random().nextInt(200) + "_user" + new Random().nextInt(600)+"@gmail.com";
+    private String password = "NewClient"+ new Random().nextInt(400);
 
 
     @BeforeMethod
@@ -30,21 +31,24 @@ public class newUserRegistrationAndLogout extends TestBase {
     @BeforeMethod
     public void preconditions() {
         homePage.clickOnLoginAndRegisterLink();
+
+    }
+
+    @Test
+    public void registerAndDeleteUserPositiveTest() {
+        System.out.println(email + "--" + password);
+        registerAndLoginPage.fillRegisterForm(email, password, password);
+        registerAndLoginPage.clickAccountLink();
+        accountPage.deleteProfile(password);
+        Assert.assertTrue(homePage.isUserDeleted());
     }
 
     @Test
     public void registerAndLogoutUserPositiveTest() {
+        System.out.println(email + "--" + password);
         registerAndLoginPage.fillRegisterForm(email, password, password);
         accountPage.logout();
         Assert.assertTrue(homePage.isUserLoggedOut());
-    }
-
-    @AfterMethod
-    public void deleteCreatedUser() {
-        homePage.clickOnLoginAndRegisterLink();
-        registerAndLoginPage.fillLoginForm(email, password);
-        registerAndLoginPage.clickAccountLink();
-        accountPage.deleteProfile(password);
     }
 
 }

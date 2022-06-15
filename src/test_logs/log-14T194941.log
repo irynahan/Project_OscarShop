@@ -1,0 +1,42 @@
+19:49:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: login_link
+19:49:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: login_link --> was found
+19:49:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-email
+19:49:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-email --> was found
+19:49:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-email
+19:49:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-email --> was found
+19:49:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-email
+19:49:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-email --> was found
+19:49:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password1
+19:49:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password1 --> was found
+19:49:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password1
+19:49:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password1 --> was found
+19:49:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password1
+19:49:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password1 --> was found
+19:49:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password2
+19:49:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password2 --> was found
+19:49:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password2
+19:49:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password2 --> was found
+19:49:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password2
+19:49:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password2 --> was found
+19:49:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.name: registration_submit
+19:49:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.name: registration_submit --> was found
+19:49:52 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[@href = "/en-gb/accounts/"]
+19:49:52 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[@href = "/en-gb/accounts/"] --> was found
+19:49:53 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[@href = '/en-gb/accounts/profile/edit/']
+19:49:53 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[@href = '/en-gb/accounts/profile/edit/'] --> was found
+19:49:53 INFO  com.telran.oscar.utils.MyListener - Start element --> By.name: first_name
+19:49:53 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.name: first_name --> was found
+19:49:53 INFO  com.telran.oscar.utils.MyListener - Start element --> By.name: first_name
+19:49:53 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.name: first_name --> was found
+19:49:53 INFO  com.telran.oscar.utils.MyListener - Start element --> By.name: first_name
+19:49:53 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.name: first_name --> was found
+19:49:54 INFO  com.telran.oscar.utils.MyListener - Start element --> By.name: last_name
+19:49:54 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.name: last_name --> was found
+19:49:54 INFO  com.telran.oscar.utils.MyListener - Start element --> By.name: last_name
+19:49:54 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.name: last_name --> was found
+19:49:54 INFO  com.telran.oscar.utils.MyListener - Start element --> By.name: last_name
+19:49:54 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.name: last_name --> was found
+19:49:54 INFO  com.telran.oscar.utils.MyListener - Start element --> By.cssSelector: .btn-primary
+19:49:54 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.cssSelector: .btn-primary --> was found
+19:49:56 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //table//tr[1]/td
+19:49:56 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //table//tr[1]/td --> was found

@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.lang.reflect.Method;
+import java.util.Random;
 
 public class EditProfileTests extends TestBase {
 
@@ -18,8 +19,8 @@ public class EditProfileTests extends TestBase {
     RegisterAndLoginPage registerAndLoginPage;
     AccountPage accountPage;
 
-    private String usersEmail = PropertiesLoader.loadProperty("valid.email");
-    private String usersPassword = PropertiesLoader.loadProperty("valid.password");
+    private String usersEmail = "master" + new Random().nextInt(300) + "_user" + new Random().nextInt(700)+"@gmail.com";
+    private String usersPassword = "NewMaster"+ new Random().nextInt(500);
     private String newPassword = "NewMaster12!";
     private String newEmail = "master_user2@gmail.com";
 
@@ -33,28 +34,33 @@ public class EditProfileTests extends TestBase {
     @BeforeMethod
     public void preconditions() {
         homePage.clickOnLoginAndRegisterLink();
-        registerAndLoginPage.fillLoginForm(usersEmail, usersPassword);
+        registerAndLoginPage.fillRegisterForm(usersEmail, usersPassword, usersPassword);
     }
 
     @Test
     public void editFirstAndLastNamePositiveTest() {
+        System.out.println(usersEmail + "--" + usersPassword);
         registerAndLoginPage.clickAccountLink();
         accountPage.clickOnEditButton();
-        accountPage.setNewFirstAndLastName("Oliver", "Hustermann");
-        Assert.assertEquals(accountPage.actualFirstAndLastName(), "Oliver" + " " + "Hustermann");
+        accountPage.setNewFirstAndLastName("Milla", "Huster");
+        Assert.assertEquals(accountPage.actualFirstAndLastName(), "Milla" + " " + "Huster");
+
     }
 
     @Test
     public void editEmailPositiveTest() {
+        System.out.println(usersEmail + "--" + usersPassword);
         registerAndLoginPage.clickAccountLink();
         accountPage.clickOnEditButton();
         accountPage.setNewEmail(newEmail);
         Assert.assertEquals(accountPage.actualEmail(),newEmail);
 
+
     }
 
     @Test
     public void editPasswordPositiveTest() {
+        System.out.println(usersEmail + "--" + usersPassword);
         registerAndLoginPage.clickAccountLink();
         accountPage.clickOnChangePasswordBtn();
         accountPage.setNewPassword(usersPassword, newPassword);
@@ -62,13 +68,7 @@ public class EditProfileTests extends TestBase {
         homePage.clickOnLoginAndRegisterLink();
         registerAndLoginPage.fillLoginForm(usersEmail, newPassword);
         Assert.assertTrue(homePage.isUserLoggedIn());
-    }
-
-    @AfterMethod
-    public void returnOriginalUsersData() {
-        // вернуть
 
     }
-
 
 }

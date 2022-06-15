@@ -1,0 +1,33 @@
+19:13:28 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: login_link
+19:13:28 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: login_link --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-email
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-email --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-email
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-email --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-email
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-email --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password1
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password1 --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password1
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password1 --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password1
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password1 --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password2
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password2 --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password2
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password2 --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.id: id_registration-password2
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.id: id_registration-password2 --> was found
+19:13:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.name: registration_submit
+19:13:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.name: registration_submit --> was found
+19:13:32 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[@href = "/en-gb/accounts/"]
+19:13:42 ERROR com.telran.oscar.utils.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href = "/en-gb/accounts/"]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'X230', ip: '192.168.178.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Vitalii\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae528367d8659c80a024a4f9c7ef25d6
+*** Element info: {Using=xpath, value=//a[@href = "/en-gb/accounts/"]}
+19:13:43 ERROR com.telran.oscar.utils.MyListener - screenshots/screen1655226822819.png
