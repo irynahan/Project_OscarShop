@@ -17,8 +17,6 @@ public class TestBase {
     //WebDriver driver;
     EventFiringWebDriver driver;
 
-    Logger logger = LoggerFactory.getLogger(TestBase.class);
-
     public static String baseURL = PropertiesLoader.loadProperty("url");
 
     @BeforeMethod

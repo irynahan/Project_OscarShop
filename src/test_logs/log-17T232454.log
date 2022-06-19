@@ -1,0 +1,24 @@
+23:24:55 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='All products']
+23:24:55 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='All products'] --> was found
+23:24:56 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: h1
+23:24:56 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: h1 --> was found
+23:24:56 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[@href = '/en-gb/']
+23:24:56 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[@href = '/en-gb/'] --> was found
+23:24:57 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='Clothing']
+23:24:57 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='Clothing'] --> was found
+23:24:57 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: h1
+23:24:58 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: h1 --> was found
+23:24:58 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[@href = '/en-gb/']
+23:24:58 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[@href = '/en-gb/'] --> was found
+23:24:58 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='Books']
+23:24:58 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='Books'] --> was found
+23:24:59 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: h1
+23:24:59 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: h1 --> was found
+23:24:59 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[@href = '/en-gb/']
+23:24:59 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[@href = '/en-gb/'] --> was found
+23:25:00 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='Offers']
+23:25:00 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='Offers'] --> was found
+23:25:02 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: h1
+23:25:02 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: h1 --> was found
+23:25:02 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[@href = '/en-gb/']
+23:25:02 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[@href = '/en-gb/'] --> was found

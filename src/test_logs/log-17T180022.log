@@ -1,0 +1,8 @@
+18:00:23 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //button[contains(.,'Add to basket')]
+18:00:23 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //button[contains(.,'Add to basket')] --> was found
+18:00:24 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //button[contains(.,'Add to basket')]
+18:00:24 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //button[contains(.,'Add to basket')] --> was found
+18:00:25 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='View basket']
+18:00:25 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='View basket'] --> was found
+18:00:25 INFO  com.telran.oscar.utils.MyListener - Start element --> By.className: basket-items
+18:00:25 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.className: basket-items --> was found

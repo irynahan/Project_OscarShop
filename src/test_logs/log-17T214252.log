@@ -1,0 +1,10 @@
+21:42:53 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='All products']
+21:42:53 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='All products'] --> was found
+21:42:54 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: h1
+21:42:54 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: h1 --> was found
+21:42:54 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[@href = '/en-gb/']
+21:42:54 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[@href = '/en-gb/'] --> was found
+21:42:54 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='Clothing']
+21:42:54 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='Clothing'] --> was found
+21:42:55 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: h1
+21:42:55 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: h1 --> was found

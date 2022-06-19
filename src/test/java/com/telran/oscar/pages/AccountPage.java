@@ -105,5 +105,10 @@ public class AccountPage extends PageBase{
         return new HomePage(driver);
     }
 
+    @FindBy (tagName = "h1")
+    WebElement profileHeader;
 
+    public boolean isProfileDisplayed() {
+        return profileHeader.isDisplayed();
+    }
 }

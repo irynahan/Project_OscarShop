@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 public class PageBase {
 
@@ -59,5 +60,14 @@ public class PageBase {
 
     public void should(WebElement element, int time) {
         new WebDriverWait(driver,time).until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public boolean isElementInList(String findElement, List<WebElement> elementsList) {
+        for (WebElement element : elementsList) {
+            if (element.getText().equals(findElement)){
+                return true;
+            }
+        }
+        return false;
     }
 }
