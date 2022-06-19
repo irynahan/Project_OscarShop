@@ -1,4 +1,0 @@
-16:52:31 INFO  com.telran.oscar.utils.MyListener - Start element --> By.cssSelector: .dropdown-submenu
-16:52:31 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.cssSelector: .dropdown-submenu --> was found
-16:52:32 INFO  com.telran.oscar.utils.MyListener - Start element --> By.cssSelector: .page-header
-16:52:32 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.cssSelector: .page-header --> was found

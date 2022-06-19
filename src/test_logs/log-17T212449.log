@@ -1,4 +1,0 @@
-21:24:49 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='All products']
-21:24:49 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='All products'] --> was found
-21:24:50 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: h1
-21:24:50 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: h1 --> was found
