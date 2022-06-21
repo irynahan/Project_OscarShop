@@ -37,4 +37,16 @@ public class BasketPage extends PageBase{
         double amount = Double.parseDouble(amountText);
         return amount;
     }
+
+    @FindBy (css = ".basket-items h3")
+    List <WebElement> productInBasketNameList;
+
+    public String getProductNameInBasket(int index) {
+        return productInBasketNameList.get(index).getText();
+    }
+
+    public int getLastIndex() {
+        return productInBasketNameList.size() - 1;
+
+    }
 }

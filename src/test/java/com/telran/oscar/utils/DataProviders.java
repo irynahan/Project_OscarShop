@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Random;
 
 public class DataProviders {
 
@@ -61,5 +62,14 @@ public class DataProviders {
             returnValue.add(nextRecord);
         }
         return returnValue.iterator();
+    }
+
+    @DataProvider
+    public Iterator<Object[]> productToView() {
+        List<Object[]> list = new ArrayList<>();
+        list.add(new Object[]{0});
+        list.add(new Object[]{new Random().nextInt(4)+8});
+        list.add(new Object[]{19});
+        return list.iterator();
     }
 }

@@ -3,6 +3,7 @@ package com.telran.oscar.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 import java.util.List;
 
@@ -127,8 +128,9 @@ public class HomePage extends PageBase{
 
 
     public double totalBasketAmount() {
-        String totalAmountText = basketTotal.getText().substring(15, 21);
+        String totalAmountText = basketTotal.getText().split(" ")[2].split("\n")[0].substring(1);
         double totalAmount = Double.parseDouble(totalAmountText);
         return totalAmount;
     }
+
 }

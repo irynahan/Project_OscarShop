@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 public class HomePageTests extends TestBase{
 
     HomePage homePage;
-    ProductPage productPage;
     RegisterAndLoginPage registerAndLoginPage;
     AccountPage accountPage;
     BasketPage basketPage;
@@ -25,7 +24,6 @@ public class HomePageTests extends TestBase{
     @BeforeMethod
     public void pageInit() {
         homePage = PageFactory.initElements(driver, HomePage.class);
-        productPage = PageFactory.initElements(driver, ProductPage.class);
         registerAndLoginPage = PageFactory.initElements(driver, RegisterAndLoginPage.class);
         accountPage = PageFactory.initElements(driver, AccountPage.class);
         basketPage = PageFactory.initElements(driver, BasketPage.class);
