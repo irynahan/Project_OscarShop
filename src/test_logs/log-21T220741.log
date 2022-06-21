@@ -1,0 +1,86 @@
+22:07:41 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='All products']
+22:07:41 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='All products'] --> was found
+22:07:42 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:42 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:42 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:42 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:42 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:42 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:42 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:42 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:42 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:42 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:43 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:43 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:43 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:43 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:43 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:43 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:43 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:43 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:43 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:43 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:43 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:43 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found
+22:07:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: img
+22:07:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: img --> was found

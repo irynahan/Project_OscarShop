@@ -1,0 +1,252 @@
+22:03:09 INFO  com.telran.oscar.utils.MyListener - Start element --> By.xpath: //a[text()='All products']
+22:03:09 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.xpath: //a[text()='All products'] --> was found
+22:03:10 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:10 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:10 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:10 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:11 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:11 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:11 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:11 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:11 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:11 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:11 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:11 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:12 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:12 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:12 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:12 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:12 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:12 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:12 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:12 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:12 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:12 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:12 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:12 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:12 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:12 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:12 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:12 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:13 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:13 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:13 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:13 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:14 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:14 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:14 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:14 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:15 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:15 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:15 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:15 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:16 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:16 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:16 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:16 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:17 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:17 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:17 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:17 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:18 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:18 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:18 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:18 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:20 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:20 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:20 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:20 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:21 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:21 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:21 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:21 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:21 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:21 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:21 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:21 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:22 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:22 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:22 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:22 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:23 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:23 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:23 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:23 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:24 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:24 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:24 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:24 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:24 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:24 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:24 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:24 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:25 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:25 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:25 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:25 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:26 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:26 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:26 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:26 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:26 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:26 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:26 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:26 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:27 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:27 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:27 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:27 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:27 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:27 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:27 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:27 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:28 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:28 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:28 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:28 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:28 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:28 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:28 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:28 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:29 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:29 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:30 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:30 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:30 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:30 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:30 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:30 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:30 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:30 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:31 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:31 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:31 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:31 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:31 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:31 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:31 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:31 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:32 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:32 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:32 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:32 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:33 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:33 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:33 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:33 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:33 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:33 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:33 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:33 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:34 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:34 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:34 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:34 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:34 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:34 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:34 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:34 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:35 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:35 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:35 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:35 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:35 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:35 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:35 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:35 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:36 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:36 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:36 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:36 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:36 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:36 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:36 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:36 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:37 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:37 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:37 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:37 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:38 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:38 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:38 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:38 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:39 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:39 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:39 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:39 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:39 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:39 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:39 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:39 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:40 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:40 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:40 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:40 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:40 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:40 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:40 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:40 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:41 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:41 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:41 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:41 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:41 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:41 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:41 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:41 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:42 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:42 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:42 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:42 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:42 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:42 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:42 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:42 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:43 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:43 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:43 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:43 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:44 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:44 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:45 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:45 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:46 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:46 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:47 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:47 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:48 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:48 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:48 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:48 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:48 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:48 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:48 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:48 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found
+22:03:49 INFO  com.telran.oscar.utils.MyListener - Start element --> By.tagName: a
+22:03:49 INFO  com.telran.oscar.utils.MyListener - The element with locator --> By.tagName: a --> was found

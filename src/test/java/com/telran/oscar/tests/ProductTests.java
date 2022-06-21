@@ -3,11 +3,15 @@ package com.telran.oscar.tests;
 import com.telran.oscar.pages.*;
 import com.telran.oscar.utils.DataProviders;
 import com.telran.oscar.utils.PropertiesLoader;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.List;
 import java.util.Random;
 
 public class ProductTests extends TestBase {
@@ -95,6 +99,14 @@ public class ProductTests extends TestBase {
 
     }
 
+    @Test
+    public void getBrokenLinksTest() {
+        allProductsPage.checkBrokenLinks();
+    }
 
+    @Test
+    public void getBrokenImagesTest() {
+        allProductsPage.checkBrokenImages();
+    }
 
 }
