@@ -150,9 +150,62 @@ public class AllProductsPage extends PageBase{
         return price;
     }
 
-    @FindBy (xpath = "//a/strong[text()='Clothing']")
+    @FindBy (xpath = "//div[@class = 'side_categories']//a[contains(text(), 'Clothing')]")
     WebElement clothingMenu;
 
+    public ClothingPage clickClothingMenu() {
+        click(clothingMenu);
+        return new ClothingPage(driver);
+    }
+
+
+    @FindBy (xpath = " //div[@class = 'side_categories'] //a[contains(text(),'Books')]")
+    WebElement booksMenu;
+
+    public BooksPage clickBooksMenu(){
+        click(booksMenu);
+        return new BooksPage(driver);
+    }
+
+    @FindBy (xpath = "//ul[@class = 'nav nav-list']/li[2]/ul/li[1]/a")
+    WebElement fictionMenu;
+
+    public BooksPage clickFictionMenu(){
+        click(fictionMenu);
+        return new BooksPage(driver);
+    }
+
+    @FindBy (xpath = "//div[@class = 'side_categories'] //a[contains(text(),'Computers in Literature')]")
+    WebElement computerMenu;
+
+    public BooksPage clickComputersInLitMenu(){
+        click(computerMenu);
+        return new BooksPage(driver);
+    }
+
+    @FindBy (xpath = "//div[@class = 'side_categories'] //a[contains(text(),'Non-Fiction')]")
+    WebElement nonFictionMenu;
+
+    public BooksPage clickNonFictionMenu(){
+        click(nonFictionMenu);
+        return new BooksPage(driver);
+    }
+
+    @FindBy (xpath = "//div[@class = 'side_categories'] //a[contains(text(),'Essential programming')]")
+    WebElement essentialMenu;
+
+    public BooksPage clickEssentialProgMenu(){
+        click(essentialMenu);
+        return new BooksPage(driver);
+    }
+
+    @FindBy (xpath = "//div[@class = 'side_categories'] //a[contains(text(),'Hacking')]")
+    WebElement hackingMenu;
+
+    public BooksPage clickHackingMenu(){
+        click(hackingMenu);
+        return new BooksPage(driver);
+    }
 
     @FindBy (tagName = "a")
     List<WebElement> allLinks;
@@ -223,6 +276,5 @@ public class AllProductsPage extends PageBase{
         }
         return this;
     }
-
 
 }

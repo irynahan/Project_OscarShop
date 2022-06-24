@@ -23,4 +23,25 @@ public class BooksPage extends PageBase{
         click(logo);
         return new HomePage(driver);
     }
+
+    public boolean isFictionDisplayed() {
+        return booksHeader.getText().equals("Fiction");
+    }
+
+    public boolean isCILDisplayed() {
+        return booksHeader.getText().equals("Computers in Literature");
+    }
+
+    public boolean isNonFictionDisplayed() {
+        return booksHeader.getText().equals("Non-Fiction");
+    }
+
+    public boolean isEssentialProgDisplayed() {
+        return booksHeader.getText().equals("Essential programming");
+    }
+
+    public boolean isHackingDisplayed() {
+        return booksHeader.getText().equals("Hacking");
+    }
+
 }

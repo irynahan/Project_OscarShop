@@ -20,6 +20,8 @@ public class ProductTests extends TestBase {
     RegisterAndLoginPage registerAndLoginPage;
     BasketPage basketPage;
     AllProductsPage allProductsPage;
+    ClothingPage clothingPage;
+    BooksPage booksPage;
 
     String pageNumberText = PropertiesLoader.loadProperty("page");
     int pageNumber = Integer.parseInt(pageNumberText);
@@ -31,6 +33,8 @@ public class ProductTests extends TestBase {
         registerAndLoginPage = PageFactory.initElements(driver, RegisterAndLoginPage.class);
         basketPage = PageFactory.initElements(driver, BasketPage.class);
         allProductsPage = PageFactory.initElements(driver, AllProductsPage.class);
+        clothingPage = PageFactory.initElements(driver, ClothingPage.class);
+        booksPage = PageFactory.initElements(driver, BooksPage.class);
     }
 
     @BeforeMethod
@@ -97,6 +101,48 @@ public class ProductTests extends TestBase {
         allProductsPage.viewBasketBtnInMessage();
         Assert.assertEquals(basketPage.getProductNameInBasket(basketPage.getLastIndex()), productName);
 
+    }
+
+    @Test
+    public void sideMenuClothingTest() {
+        allProductsPage.clickClothingMenu();
+        Assert.assertTrue(clothingPage.isClothingPageDisplayed());
+    }
+
+    @Test
+    public void sideMenuBooksTest() {
+        allProductsPage.clickBooksMenu();
+        Assert.assertTrue(booksPage.isBooksPageDisplayed());
+    }
+
+    @Test
+    public void sideMenuFictionTest() {
+        allProductsPage.clickFictionMenu();
+        Assert.assertTrue(booksPage.isFictionDisplayed());
+    }
+
+    @Test
+    public void sideMenuCompInLitTest() {
+        allProductsPage.clickComputersInLitMenu();
+        Assert.assertTrue(booksPage.isCILDisplayed());
+    }
+
+    @Test
+    public void sideMenuNonFictionTest() {
+        allProductsPage.clickNonFictionMenu();
+        Assert.assertTrue(booksPage.isNonFictionDisplayed());
+    }
+
+    @Test
+    public void sideMenuEssentialLitTest() {
+        allProductsPage.clickEssentialProgMenu();
+        Assert.assertTrue(booksPage.isEssentialProgDisplayed());
+    }
+
+    @Test
+    public void sideMenuHackingTest() {
+        allProductsPage.clickHackingMenu();
+        Assert.assertTrue(booksPage.isHackingDisplayed());
     }
 
     @Test
