@@ -133,4 +133,11 @@ public class HomePage extends PageBase{
         return totalAmount;
     }
 
+    @FindBy (xpath = "//a[@href = \"/en-gb/accounts/\"]")
+    WebElement accountLink;
+    public AccountPage clickAccountLink() {
+        accountLink.click();
+        return new AccountPage(driver);
+    }
+
 }

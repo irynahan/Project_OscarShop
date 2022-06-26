@@ -54,6 +54,7 @@ public class RegisterAndLoginPage extends PageBase {
         return this;
     }
 
+
     @FindBy (css = ".alertinner")
     WebElement registrationMessage;
 
@@ -99,5 +100,22 @@ public class RegisterAndLoginPage extends PageBase {
         System.out.println(error);
         return confirmPasswordError.getText().contains("The two password fields didn't match");
     }
+
+    @FindBy (id = "id_password1")
+    WebElement checkoutRegPass;
+
+    @FindBy (id = "id_password2")
+    WebElement checkoutRegConfirm;
+
+    @FindBy (name = "registration_submit")
+    WebElement checkoutRegSubmit;
+
+    public void fillRegisterPass(String password, String confirm) {
+        type(checkoutRegPass, password);
+        type(checkoutRegConfirm, confirm);
+        click(checkoutRegSubmit);
+    }
+
+
 }
 

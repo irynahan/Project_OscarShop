@@ -1,5 +1,6 @@
 package com.telran.oscar.pages;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,41 +28,30 @@ public class BasketPage extends PageBase{
         int itemsNumber = itemsInBasketList.size();
         return itemsNumber;
     }
-    @FindBy (xpath = "//td[contains(., 'before discounts')]/following-sibling::td")
-    WebElement priceBeforeDiscount;
 
-    @FindBy (xpath = "//th[contains(., 'Basket total')]/following-sibling::th")
-    WebElement totalPriceItems;
 
-    public double getPriceBeforeDiscount() {
-        String priceText = null;
-        if (priceBeforeDiscount.isDisplayed()){
-            priceText = priceBeforeDiscount.getText().substring(1);
-        } else {
-            priceText = totalPriceItems.getText().substring(1);
-        }
+    @FindBy (xpath = "//*[@class='total align-right']")
+    List<WebElement> basketTotalAmountsList;
+
+    public double getPriceFromList(int element) {
+        String priceText = basketTotalAmountsList.get(element).getText().substring(1);
         double price = Double.parseDouble(priceText);
         System.out.println(price);
         return price;
     }
 
+    @FindBy (xpath = "//*[@class='align-right']")
+    List<WebElement> basketDiskountsList;
+
     @FindBy (xpath = "//td[@class='basket-discount']/following-sibling::td")
     WebElement discount;
 
-    @FindBy (xpath = "//th[contains(.,'after')]/following-sibling::th")
-    WebElement basketTotalPrice;
-
-    @FindBy (xpath = "//table[@class='table table-condensed']")
-    public WebElement tableTotals;
-
-    public double calculateTotalPriceAfterDiscount() {
-        return 0.00;
+    public double getDiscount() {
+        String priceText = discount.getText().substring(2);
+        double price = Double.parseDouble(priceText);
+        System.out.println(price);
+        return price;
     }
-
-    @FindBy (xpath = "//div[@id = 'basket_totals']//tr[7]/th[2]")
-    WebElement shippingPrice;
-
-
 
 
     @FindBy (xpath = "//h3[@class='price_color']")
@@ -84,14 +74,19 @@ public class BasketPage extends PageBase{
         return productInBasketNameList.size() - 1;
     }
 
-    //@FindBy (css = "[type = 'number']")
     @FindBy (id = "id_form-0-quantity")
-    WebElement productQuantityList;
+    WebElement productQuantity;
 
     public int getProductUnits() {
-        String quantityText = productQuantityList.getAttribute("value");
+        String quantityText = productQuantity.getAttribute("value");
         int quantity = Integer.parseInt(quantityText);
         return quantity;
+    }
+
+    public void changeQuantityOfProducts(String quantity, int product){
+        type(productQuantity, quantity);
+        //productQuantity.sendKeys(Keys.ENTER);
+        click(updateQuantityBnt.get(0));
     }
 
     @FindBy (css = ".input-group-btn button")
@@ -127,16 +122,76 @@ public class BasketPage extends PageBase{
         return sum.doubleValue();
     }
 
+    @FindBy (css = ".btn-primary")
+    WebElement checkoutBtn;
+    public void clickCheckoutBtn() {
+        click(checkoutBtn);
+    }
 
+    @FindBy (name = "username")
+    WebElement userEmail;
+    @FindBy (name = "password")
+    WebElement userPassword;
 
+    public void typeUsersData(String email, String password){
+        type(userEmail, email);
+        type(userPassword, password);
+    }
 
+    @FindBy (id = "id_options_1")
+    WebElement newUserPlusRegistration;
+
+    public void clickNewUserWithRegistration() {
+        click(newUserPlusRegistration);
+    }
+
+    @FindBy ( css = "button")
+    WebElement continueBtnWhoAreYou;
+    public void clickContinueBtn(){
+        click(continueBtnWhoAreYou);
+    }
 
 
     @FindBy (id = "view_preview")
     WebElement continueBtnPayment;
 
+    public void clickContinueBtnPayment() {
+        click(continueBtnPayment);
+    }
+
     @FindBy (id = "place-order")
     WebElement placeOrderBtn;
+
+    public void placeOrder(){
+        click(placeOrderBtn);
+    }
+
+    @FindBy (xpath = "//a[text() = 'View order status']")
+    WebElement orderStatus;
+
+    public void viewOrderStatus() {
+        click(orderStatus);
+    }
+
+    @FindBy (tagName = "strong")
+    WebElement orderNumber;
+
+    public String getOrderNumber(){
+        return orderNumber.getText();
+    }
+
+    @FindBy (xpath = "//div[@id='content_inner']/p[1]")
+    WebElement status;
+    public String getOrderStatus(){
+        return status.getText();
+    }
+
+    @FindBy (xpath = "//a[text()='Continue shopping']")
+    WebElement continueShopping;
+    public HomePage clickContinueShopping(){
+        click(continueShopping);
+        return new HomePage(driver);
+    }
 
     @FindBy (xpath = "//a[contains(.,'Edit order contents')]")
     WebElement editOrderLink;

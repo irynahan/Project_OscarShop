@@ -73,4 +73,16 @@ public class DataProviders {
         return list.iterator();
     }
 
+    @DataProvider
+    public Iterator<Object[]> shipmentAddress() throws IOException {
+        CSVReader fileReader = new CSVReader(new FileReader("src/test/resources/shipmentAddress.csv"));
+        Iterator<String[]> fileReaderInterator = fileReader.iterator();
+        List<Object[]> returnValue = new ArrayList<>();
+        while (fileReaderInterator.hasNext()) {
+            String[] nextRecord = fileReaderInterator.next();
+            returnValue.add(nextRecord);
+        }
+        return returnValue.iterator();
+    }
+
 }

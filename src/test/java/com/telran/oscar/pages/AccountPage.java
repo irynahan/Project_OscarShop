@@ -111,4 +111,16 @@ public class AccountPage extends PageBase{
     public boolean isProfileDisplayed() {
         return profileHeader.isDisplayed();
     }
+
+    @FindBy (xpath = "//a[@href='/en-gb/accounts/orders/']")
+    WebElement orderHistory;
+    public void viewOrdersHistory() {
+        click(orderHistory);
+    }
+
+    @FindBy (xpath = "//table//tr[2]//a")
+    WebElement orderNumber;
+    public String getOrderNumber(){
+        return orderNumber.getText();
+    }
 }
