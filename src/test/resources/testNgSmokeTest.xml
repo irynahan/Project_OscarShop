@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OscarShopSmokeTest" verbose="1" >
+    <test name="SmokeTest" >
+        <classes>
+
+            <class name="com.telran.oscar.tests.RegistrationWithLogoutAndDeletePositiveTests" />
+
+            <class name="com.telran.oscar.tests.LoginTests" >
+                <methods>
+                    <include name="loginRegisteredUserPositiveTest"/>
+                </methods>
+            </class>
+
+            <class name="com.telran.oscar.tests.HomePageTests" >
+                <methods>
+                    <include name="addProductToBasketTest"/>
+                    <include name="totalBasketAmountTest"/>
+                </methods>
+            </class>
+
+            <class name="com.telran.oscar.tests.ProductTests" >
+                <methods>
+                    <include name="nextPaginationTest"/>
+                    <include name="previousPaginationTest"/>
+                    <include name="viewProductByImageTest"/>
+                    <include name="viewProductByNameTest"/>
+                    <include name="addProductToBasketFromProductListTest"/>
+                    <include name="addProductToBasketFromProductDetailsTest"/>
+                </methods>
+            </class>
+
+            <class name="com.telran.oscar.tests.BasketTests" >
+                <methods>
+                    <include name="totalPriceSeveralUnitsOneProductTest"/>
+                    <include name="totalOrderAmountTest"/>
+                    <include name="checkoutGuestTest"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

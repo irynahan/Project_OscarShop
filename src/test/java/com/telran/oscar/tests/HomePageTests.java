@@ -92,32 +92,33 @@ public class HomePageTests extends TestBase{
         Assert.assertEquals(totalBasketAmountHomePage, totalOrderAmountBasketPage);
     }
 
+
+    @Test
+    public void menuElementsAllProductsTest() {
+        homePage.clickAllProductsMenu();
+        Assert.assertTrue(allProductsPage.isAllProductsPageDisplayed());
+    }
+
+    @Test
+    public void menuElementsClothingTest() {
+        homePage.clickClothingMenu();
+        Assert.assertTrue(clothingPage.isClothingPageDisplayed());
+
+    }
+
+    @Test
+    public void menuElementsBooksTest() {
+        homePage.clickBooksMenu();
+        Assert.assertTrue(booksPage.isBooksPageDisplayed());
+
+    }
+
     @Test
 
-    public void menuElementsTest() {
-        String [] menuElements= new String[] {"All products", "Clothing", "Books", "Offers"};
-        for (int i = 0; i < menuElements.length; i++){
-            if (menuElements[i].equals("All products")) {
-                homePage.clickAllProductsMenu();
-                Assert.assertTrue(allProductsPage.isAllProductsPageDisplayed());
-                allProductsPage.returnToHomePage();
-            } else if (menuElements[i].equals("Clothing")) {
-                homePage.clickClothingMenu();
-                Assert.assertTrue(clothingPage.isClothingPageDisplayed());
-                clothingPage.returnToHomePage();
-            } else if (menuElements[i].equals("Books")) {
-                homePage.clickBooksMenu();
-                Assert.assertTrue(booksPage.isBooksPageDisplayed());
-                booksPage.returnToHomePage();
-            }else if (menuElements[i].equals("Offers")) {
-                homePage.clickOffersMenu();
-                Assert.assertTrue(offersPage.isOffersPageDisplayed());
-                offersPage.returnToHomePage();
-            }
-            else {
-                Assert.fail();
-            }
-        }
+    public void menuElementsOffersTest() {
+        homePage.clickOffersMenu();
+        Assert.assertTrue(offersPage.isOffersPageDisplayed());
+
     }
 
 }

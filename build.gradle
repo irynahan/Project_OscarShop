@@ -18,6 +18,24 @@ dependencies {
 
 }
 
-test {
+task testGeneral (type: Test) {
     useTestNG()
+}
+
+task testUI (type: Test) {
+    useTestNG(){
+        suites 'src/test/resources/testNgUI.xml'
+    }
+}
+
+task testSmoke (type: Test) {
+    useTestNG(){
+        suites 'src/test/resources/testNgSmokeTest.xml'
+    }
+}
+
+task testRegression (type: Test) {
+    useTestNG() {
+        suites 'src/test/resources/testNgRegressionTests.xml'
+    }
 }

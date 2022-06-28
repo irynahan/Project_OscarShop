@@ -29,7 +29,7 @@ public class TestBase {
         driver.register(new MyListener());
     }
 
-    @AfterMethod(enabled = false)
+    @AfterMethod(enabled = true)
     public void tearDown() {
         driver.quit();
     }

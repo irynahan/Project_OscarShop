@@ -89,7 +89,7 @@ public class ProductTests extends TestBase {
         String productName = allProductsPage.getProductName(product);
         Assert.assertTrue(allProductsPage.isProductAddedToBasket(productName));
         allProductsPage.viewBasketBtnInMessage();
-        Assert.assertEquals(basketPage.getProductNameInBasket(basketPage.getLastIndex()), productName);
+        Assert.assertTrue(basketPage.getProductNameInBasket(basketPage.getLastIndex()).contains(productName));
 
     }
     @Test
@@ -99,7 +99,7 @@ public class ProductTests extends TestBase {
         allProductsPage.addProductToBasketProductDetails();
         Assert.assertTrue(allProductsPage.isProductAddedToBasket(productName));
         allProductsPage.viewBasketBtnInMessage();
-        Assert.assertEquals(basketPage.getProductNameInBasket(basketPage.getLastIndex()), productName);
+        Assert.assertTrue(basketPage.getProductNameInBasket(basketPage.getLastIndex()).contains(productName));
 
     }
 

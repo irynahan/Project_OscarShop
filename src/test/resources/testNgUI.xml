@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OscarShopUITests" verbose="1" >
+    <test name="UITests" >
+        <classes>
+
+            <class name="com.telran.oscar.tests.HomePageTests" >
+                <methods>
+                    <exclude name="totalBasketAmountTest"/>
+                </methods>
+            </class>
+
+            <class name="com.telran.oscar.tests.ProductTests" >
+                 <methods>
+                     <include name="sideMenuClothingTest"/>
+                     <include name="sideMenuBooksTest"/>
+                     <include name="sideMenuFictionTest"/>
+                     <include name="sideMenuCompInLitTest"/>
+                     <include name="sideMenuNonFictionTest"/>
+                     <include name="sideMenuEssentialLitTest"/>
+                     <include name="sideMenuHackingTest"/>
+                     <include name="getBrokenLinksTest"/>
+                     <include name="getBrokenImagesTest"/>
+                 </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>
