@@ -8,6 +8,7 @@ Automation testing project for the web application Oscar Online-Shop
 to work out test documentation and develop a set of tests to ensure manual and automation testing of the functionality of web shop application, workflows and  UI (http://selenium1py.pythonanywhere.com/en-gb/).
 
 
+
 **Frameworks** :  Selenium WebDriver, TestNg
 
 **Programming language** :  Java
@@ -15,6 +16,7 @@ to work out test documentation and develop a set of tests to ensure manual and a
 **IDE** :  IDEA
 
 **Tools** : Gradle, Jenkins, Jira
+
 
 
 **Test Documentation**
