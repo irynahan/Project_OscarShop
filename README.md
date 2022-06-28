@@ -2,15 +2,15 @@
 
 Testing project for the web application Oscar Online-Shop http://selenium1py.pythonanywhere.com/en-gb/
 
-** Main Objectives **
+**Main Objectives**
 
 
 
 
-** Frameworks ** :  Selenium WebDriver, TestNg
-** Programming language ** :  Java
-** IDE ** :  IDEA
-** Tools ** : Jenkins, Jira
+**Frameworks** :  Selenium WebDriver, TestNg
+**Programming language** :  Java
+**IDE** :  IDEA
+**Tools** : Jenkins, Jira
 
 
 
