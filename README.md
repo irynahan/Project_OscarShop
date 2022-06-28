@@ -8,8 +8,11 @@ Testing project for the web application Oscar Online-Shop http://selenium1py.pyt
 
 
 **Frameworks** :  Selenium WebDriver, TestNg
+
 **Programming language** :  Java
+
 **IDE** :  IDEA
+
 **Tools** : Jenkins, Jira
 
 
