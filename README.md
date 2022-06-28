@@ -2,11 +2,10 @@
 
 Automation testing project for the web application Oscar Online-Shop 
 
-http://selenium1py.pythonanywhere.com/en-gb/
 
 **Project Objectives**
 
-to work out test documentation and develop a set of tests to ensure manual and automation testing of the functionality of web shop application, workflows and  UI.
+to work out test documentation and develop a set of tests to ensure manual and automation testing of the functionality of web shop application, workflows and  UI (http://selenium1py.pythonanywhere.com/en-gb/).
 
 
 **Frameworks** :  Selenium WebDriver, TestNg
