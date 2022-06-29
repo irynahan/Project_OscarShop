@@ -24,7 +24,7 @@ to work out test documentation and develop a set of tests to ensure manual and a
 1) Mind map for Oscar shop https://bit.ly/3xZ6EwB
 2) User state transition diagram https://bit.ly/3ucFhhn
 3) Requirements specification https://bit.ly/3Nw15v4
-4) Test plan 
+4) Test plan https://bit.ly/3yuAHOe 
 5) Test cases specification https://bit.ly/3ucFnFL
 6) Test results flat https://bit.ly/3I7haGD
 
