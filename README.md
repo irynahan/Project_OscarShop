@@ -13,10 +13,9 @@ to work out test documentation and develop a set of tests to ensure manual and a
 
 **Programming language** :  Java
 
-**IDE** :  IDEA
-
 **Tools** : Gradle, Jenkins, Jira
 
+**IDE** :  IDEA
 
 
 **Test Documentation**
